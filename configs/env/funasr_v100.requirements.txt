@@ -1,0 +1,14 @@
+# FunASR V100 overlay, captured 2026-09-19.
+# Base interpreter: /workspace/yunlong/anaconda3/envs/funasr (Python 3.10.18)
+# Runtime: torch==2.6.0+cu118, torchaudio==2.6.0+cu118, FunASR source tree
+# inherited from the base environment.  PyArrow 11.0.0 is redirected from the
+# shared CosyVoice environment by third_party/v100_compat; the base PyArrow 22
+# wheel requires a newer glibc than V96/V98 provide.
+accelerate==1.15.0
+huggingface_hub==1.32.0
+numpy==1.26.4
+# pyarrow==11.0.0  # shared compatible runtime; see third_party/v100_compat
+# tiktoken==0.11.0  # shared prebuilt runtime; see third_party/v100_compat
+safetensors==0.8.0
+tokenizers==0.22.2
+transformers==5.15.1

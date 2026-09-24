@@ -1,0 +1,951 @@
+{
+  "generated_at_utc": "2026-09-16T06:42:32+00:00",
+  "host": "A22",
+  "git_commit": "89d1f0b8ecd080288bbe894c7eb1c297ce46b39e",
+  "hash_policy": {
+    "small_file_limit_bytes": 2147483648,
+    "large_file_mode": "sha256 over head+tail 1MiB (labeled partial)"
+  },
+  "s2s_models": [
+    {
+      "path": "/workspace/yunlong/LLM/pretrain_model/Qwen/Qwen3-Omni-30B-A3B-Instruct",
+      "exists": true,
+      "config": {
+        "architectures": [
+          "Qwen3OmniMoeForConditionalGeneration"
+        ],
+        "model_type": "qwen3_omni_moe",
+        "has_talker_config": true,
+        "enable_audio_output": true,
+        "enable_talker": null,
+        "has_code2wav": true,
+        "transformers_version": "4.57.0.dev0",
+        "dtype": "bfloat16",
+        "sha256": "eab5093d47807aaf894119506b238b2b1cee70d08456e894fee9a012d88f2e0d"
+      },
+      "can_speak": true,
+      "n_files": 28,
+      "total_bytes": 70530596165,
+      "files": [
+        {
+          "sha256_head_tail_1MiB": "81b3b07b61990cc63d07c3929f10ea8ac19c07e33ee88fbf4827decbf0107b8e",
+          "hash_mode": "partial_head_tail_1MiB",
+          "size_bytes": 4997899632,
+          "file": "model-00001-of-00015.safetensors"
+        },
+        {
+          "sha256_head_tail_1MiB": "0e3587b7a69bb3fb493c3603dc7cf81288b9ae80f1f28256e439788c529e368e",
+          "hash_mode": "partial_head_tail_1MiB",
+          "size_bytes": 4997754216,
+          "file": "model-00002-of-00015.safetensors"
+        },
+        {
+          "sha256_head_tail_1MiB": "e1c71f3a2790ab74cd8470c9687b3bc0a63c94a436d8f7ba3429c29888e92910",
+          "hash_mode": "partial_head_tail_1MiB",
+          "size_bytes": 4997754216,
+          "file": "model-00003-of-00015.safetensors"
+        },
+        {
+          "sha256_head_tail_1MiB": "5bb36f909b40b0e60696bda6ae3c22bb08d79959d8199e09642b2b06ed1327ef",
+          "hash_mode": "partial_head_tail_1MiB",
+          "size_bytes": 4997755648,
+          "file": "model-00004-of-00015.safetensors"
+        },
+        {
+          "sha256_head_tail_1MiB": "55736c834bfb7b64b35ca7ca7a70fc6a2f5bfca89e02449d24b8579108e174c0",
+          "hash_mode": "partial_head_tail_1MiB",
+          "size_bytes": 4997755792,
+          "file": "model-00005-of-00015.safetensors"
+        },
+        {
+          "sha256_head_tail_1MiB": "9958a3bc1257570ab8ac2cd922d4c0bffadee6462796a7e10be1e5a6ae5b34d6",
+          "hash_mode": "partial_head_tail_1MiB",
+          "size_bytes": 4997755792,
+          "file": "model-00006-of-00015.safetensors"
+        },
+        {
+          "sha256_head_tail_1MiB": "6c3ed8753d2dc7bb81a47ad08a2d47ab8c66a34d1216c31cccd11163b83c3e65",
+          "hash_mode": "partial_head_tail_1MiB",
+          "size_bytes": 4997755792,
+          "file": "model-00007-of-00015.safetensors"
+        },
+        {
+          "sha256_head_tail_1MiB": "350716669346a24037180c052539d2a73f7df10e5059a79417261ccb5e05cee2",
+          "hash_mode": "partial_head_tail_1MiB",
+          "size_bytes": 4997755792,
+          "file": "model-00008-of-00015.safetensors"
+        },
+        {
+          "sha256_head_tail_1MiB": "ef31cfbcf255a1f1008a5958a5388d3704b8b46aa993e97772a9e34561e25a37",
+          "hash_mode": "partial_head_tail_1MiB",
+          "size_bytes": 4997755792,
+          "file": "model-00009-of-00015.safetensors"
+        },
+        {
+          "sha256_head_tail_1MiB": "ab7fda68dd4d95bb08282fe9008f7022cf3fc3d7909c0548d8bcf145368b63c1",
+          "hash_mode": "partial_head_tail_1MiB",
+          "size_bytes": 4997755792,
+          "file": "model-00010-of-00015.safetensors"
+        },
+        {
+          "sha256_head_tail_1MiB": "557a57310b7b9408c670bcf4caa778a2954df3fd76469c1e4b0bc8211e3b6ff5",
+          "hash_mode": "partial_head_tail_1MiB",
+          "size_bytes": 4997755792,
+          "file": "model-00011-of-00015.safetensors"
+        },
+        {
+          "sha256_head_tail_1MiB": "67f7287ba5490e0e6dd46cf09ffcab0007bfdd1ab876cf6e5655187ed4194ed2",
+          "hash_mode": "partial_head_tail_1MiB",
+          "size_bytes": 4997755792,
+          "file": "model-00012-of-00015.safetensors"
+        },
+        {
+          "sha256_head_tail_1MiB": "2a8984e098c9435e18c502d4d4e00f06a33b2bcf139d88f72daf572543b42b61",
+          "hash_mode": "partial_head_tail_1MiB",
+          "size_bytes": 4999771808,
+          "file": "model-00013-of-00015.safetensors"
+        },
+        {
+          "sha256_head_tail_1MiB": "a033f503eb9813126b842eb8ef5f33295d39f117eb2c8033b18327e990b16154",
+          "hash_mode": "partial_head_tail_1MiB",
+          "size_bytes": 4996618552,
+          "file": "model-00014-of-00015.safetensors"
+        },
+        {
+          "sha256": "68880d566a50643807a4e73f5227c4f468bb31532925ed5fae78a51bdd39492a",
+          "hash_mode": "full",
+          "size_bytes": 553698794,
+          "file": "model-00015-of-00015.safetensors"
+        },
+        {
+          "sha256": "eab5093d47807aaf894119506b238b2b1cee70d08456e894fee9a012d88f2e0d",
+          "hash_mode": "full",
+          "size_bytes": 13671,
+          "file": "config.json"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/yunlong/LLM/pretrain_model/Qwen/Qwen3-Omni-30B-A3B-Thinking",
+      "exists": true,
+      "config": {
+        "architectures": [
+          "Qwen3OmniMoeForConditionalGeneration"
+        ],
+        "model_type": "qwen3_omni_moe",
+        "has_talker_config": false,
+        "enable_audio_output": false,
+        "enable_talker": null,
+        "has_code2wav": false,
+        "transformers_version": "4.57.0.dev0",
+        "dtype": "bfloat16",
+        "sha256": "e6f8c637528461398ef4e11d48b6112ce73db2458a563dfea548127c2cce253f"
+      },
+      "can_speak": false,
+      "n_files": 28,
+      "total_bytes": 63447490013,
+      "files": [
+        {
+          "sha256_head_tail_1MiB": "f9e69f196f9288bc52f9c00baeaa2e25d64cd39d8f49c18bc1f177320b877202",
+          "hash_mode": "partial_head_tail_1MiB",
+          "size_bytes": 4000129664,
+          "file": "model-00001-of-00016.safetensors"
+        },
+        {
+          "sha256_head_tail_1MiB": "6847597428d144b23a193376c91c8a0892886a40a740fc91ea11c42c27ce17e8",
+          "hash_mode": "partial_head_tail_1MiB",
+          "size_bytes": 3999992216,
+          "file": "model-00002-of-00016.safetensors"
+        },
+        {
+          "sha256_head_tail_1MiB": "682e3acc00eea00489ad7922a1c7b27744099c83f2cf65c7290b3f7cd83b7b62",
+          "hash_mode": "partial_head_tail_1MiB",
+          "size_bytes": 3997362968,
+          "file": "model-00003-of-00016.safetensors"
+        },
+        {
+          "sha256_head_tail_1MiB": "103008046113d75f611ff1347f63160bcdf07e45af548ce188f77d3c374000e4",
+          "hash_mode": "partial_head_tail_1MiB",
+          "size_bytes": 3999984424,
+          "file": "model-00004-of-00016.safetensors"
+        },
+        {
+          "sha256_head_tail_1MiB": "2663324b87bea22c1c5aae52d56a8666b98be41b01121e654667d4986909585a",
+          "hash_mode": "partial_head_tail_1MiB",
+          "size_bytes": 3999985496,
+          "file": "model-00005-of-00016.safetensors"
+        },
+        {
+          "sha256_head_tail_1MiB": "8f833c9d48b12afee91a76be9ce904098624839d5d6ffef46a81ed374a8a6de7",
+          "hash_mode": "partial_head_tail_1MiB",
+          "size_bytes": 3999985528,
+          "file": "model-00006-of-00016.safetensors"
+        },
+        {
+          "sha256_head_tail_1MiB": "f4554c3baa701942177cee42cf0d8ba47e30e69fc708fe18a2827dcd4c03ab8d",
+          "hash_mode": "partial_head_tail_1MiB",
+          "size_bytes": 3997372200,
+          "file": "model-00007-of-00016.safetensors"
+        },
+        {
+          "sha256_head_tail_1MiB": "219b30557a6d44c83a6de1ad204092b5668c2b7abab81e87071949ee183fabaa",
+          "hash_mode": "partial_head_tail_1MiB",
+          "size_bytes": 3999985488,
+          "file": "model-00008-of-00016.safetensors"
+        },
+        {
+          "sha256_head_tail_1MiB": "133c2c310ab18e0b72b7a17b15fff69d4c0b767864ebe83660e7132a68196b11",
+          "hash_mode": "partial_head_tail_1MiB",
+          "size_bytes": 3999985496,
+          "file": "model-00009-of-00016.safetensors"
+        },
+        {
+          "sha256_head_tail_1MiB": "ff8a7ccd4e136d48f4cd7360f366062fdd8d3c932a04bda3a3437fc0f14b6f21",
+          "hash_mode": "partial_head_tail_1MiB",
+          "size_bytes": 3999985496,
+          "file": "model-00010-of-00016.safetensors"
+        },
+        {
+          "sha256_head_tail_1MiB": "027faf19408be9cefbe215e4cee2da35243e844c85323d84b69c7a321e8bd084",
+          "hash_mode": "partial_head_tail_1MiB",
+          "size_bytes": 3999985544,
+          "file": "model-00011-of-00016.safetensors"
+        },
+        {
+          "sha256_head_tail_1MiB": "4aa6ef1c6099e33e48e67f46a84c9c050f83c33ec3c75cc7248d1842b20ad0b0",
+          "hash_mode": "partial_head_tail_1MiB",
+          "size_bytes": 3997372160,
+          "file": "model-00012-of-00016.safetensors"
+        },
+        {
+          "sha256_head_tail_1MiB": "9488f44028e22f674c2f1053eee8f711279fe9a020c641bb3f4c8ec726de0a4d",
+          "hash_mode": "partial_head_tail_1MiB",
+          "size_bytes": 3999985504,
+          "file": "model-00013-of-00016.safetensors"
+        },
+        {
+          "sha256_head_tail_1MiB": "af92d75c2c6d38d11a85685ac1174bcb2d5050aebec9d2ba1978b8644f46875e",
+          "hash_mode": "partial_head_tail_1MiB",
+          "size_bytes": 3999985496,
+          "file": "model-00014-of-00016.safetensors"
+        },
+        {
+          "sha256_head_tail_1MiB": "ccdf0a49b3464271a663fd442b84b61f13282f3231afd0df0e494ff5f7286493",
+          "hash_mode": "partial_head_tail_1MiB",
+          "size_bytes": 3999985496,
+          "file": "model-00015-of-00016.safetensors"
+        },
+        {
+          "sha256_head_tail_1MiB": "3948b5f84e3391b8f2c8f3ec4dc70fd4856b1cf4f196f7282962eb8d8c4631ba",
+          "hash_mode": "partial_head_tail_1MiB",
+          "size_bytes": 3448914464,
+          "file": "model-00016-of-00016.safetensors"
+        },
+        {
+          "sha256": "e6f8c637528461398ef4e11d48b6112ce73db2458a563dfea548127c2cce253f",
+          "hash_mode": "full",
+          "size_bytes": 8528,
+          "file": "config.json"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/yunlong/LLM/pretrain_model/Qwen/Qwen2.5-Omni-7B",
+      "exists": true,
+      "config": {
+        "architectures": [
+          "Qwen2_5OmniModel"
+        ],
+        "model_type": "qwen2_5_omni",
+        "has_talker_config": true,
+        "enable_audio_output": true,
+        "enable_talker": true,
+        "has_code2wav": true,
+        "transformers_version": "4.50.0.dev0",
+        "dtype": "bfloat16",
+        "sha256": "f85f5a078951471e32d6ce5dd169acf619e3480c83daf195e5016ef3eb89b1a9"
+      },
+      "can_speak": true,
+      "n_files": 24,
+      "total_bytes": 22379298580,
+      "files": [
+        {
+          "sha256_head_tail_1MiB": "4306b08debe3a1053eba7b8abc5be4c833159a49d62be3e2753cc69123a0d4b7",
+          "hash_mode": "partial_head_tail_1MiB",
+          "size_bytes": 4985055504,
+          "file": "model-00001-of-00005.safetensors"
+        },
+        {
+          "sha256_head_tail_1MiB": "98e8cd60ec31c851ff9220acd40b9944a4747e090d3273ccff7eb6d90261fc26",
+          "hash_mode": "partial_head_tail_1MiB",
+          "size_bytes": 4991496800,
+          "file": "model-00002-of-00005.safetensors"
+        },
+        {
+          "sha256_head_tail_1MiB": "970884fae7215538cb586e5e77f35d96c8286ac2af02229679f11fb8de1ed879",
+          "hash_mode": "partial_head_tail_1MiB",
+          "size_bytes": 4991496904,
+          "file": "model-00003-of-00005.safetensors"
+        },
+        {
+          "sha256_head_tail_1MiB": "c8cfe270b1813f37b3f24de7c0ec1ecc02d8c0a3b57897d94ea74bcbcb0971ba",
+          "hash_mode": "partial_head_tail_1MiB",
+          "size_bytes": 4969489824,
+          "file": "model-00004-of-00005.safetensors"
+        },
+        {
+          "sha256_head_tail_1MiB": "ca97587b5c57ef6cb67aad1a4e297e528a9276b0b62338e3cbbc9f28bbe21096",
+          "hash_mode": "partial_head_tail_1MiB",
+          "size_bytes": 2425322160,
+          "file": "model-00005-of-00005.safetensors"
+        },
+        {
+          "sha256": "6a05609b28f5d42b7b748f0f07592545c8f1f6885b9ae8fff64baf56e86b2a18",
+          "hash_mode": "full",
+          "size_bytes": 259544,
+          "file": "spk_dict.pt"
+        },
+        {
+          "sha256": "f85f5a078951471e32d6ce5dd169acf619e3480c83daf195e5016ef3eb89b1a9",
+          "hash_mode": "full",
+          "size_bytes": 13186,
+          "file": "config.json"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/yunlong/LLM/pretrain_model/Qwen/Qwen2.5-Omni-3B",
+      "exists": true,
+      "config": {
+        "architectures": [
+          "Qwen2_5OmniModel"
+        ],
+        "model_type": "qwen2_5_omni",
+        "has_talker_config": true,
+        "enable_audio_output": true,
+        "enable_talker": true,
+        "has_code2wav": true,
+        "transformers_version": "4.51.0.dev0",
+        "dtype": "bfloat16",
+        "sha256": "20790f362c37a1718a3e764f597ae33dfc20177399762018dffaabf8321d4dd1"
+      },
+      "can_speak": true,
+      "n_files": 21,
+      "total_bytes": 11989103862,
+      "files": [
+        {
+          "sha256_head_tail_1MiB": "6e5e1a79af827901fa66963f4adfd868e7a8ac72b921098fcbce4e8d15a466c8",
+          "hash_mode": "partial_head_tail_1MiB",
+          "size_bytes": 4994850880,
+          "file": "model-00001-of-00003.safetensors"
+        },
+        {
+          "sha256_head_tail_1MiB": "0aacbf1b5199802f2b184a72a624331375db07cd9a64af5b28772499d4ee0d4f",
+          "hash_mode": "partial_head_tail_1MiB",
+          "size_bytes": 4999787448,
+          "file": "model-00002-of-00003.safetensors"
+        },
+        {
+          "sha256": "8f2138170a87ec604b53232491a96d6dcf19e0724aca37e69aace143e508b170",
+          "hash_mode": "full",
+          "size_bytes": 1978024880,
+          "file": "model-00003-of-00003.safetensors"
+        },
+        {
+          "sha256": "6a05609b28f5d42b7b748f0f07592545c8f1f6885b9ae8fff64baf56e86b2a18",
+          "hash_mode": "full",
+          "size_bytes": 259544,
+          "file": "spk_dict.pt"
+        },
+        {
+          "sha256": "20790f362c37a1718a3e764f597ae33dfc20177399762018dffaabf8321d4dd1",
+          "hash_mode": "full",
+          "size_bytes": 13183,
+          "file": "config.json"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/yunlong/LLM/pretrain_model/ST/Qwen2-Audio-7B-Instruct",
+      "exists": true,
+      "config": {
+        "architectures": [
+          "Qwen2AudioForConditionalGeneration"
+        ],
+        "model_type": "qwen2_audio",
+        "has_talker_config": false,
+        "enable_audio_output": null,
+        "enable_talker": null,
+        "has_code2wav": false,
+        "transformers_version": "4.38.1",
+        "dtype": null,
+        "sha256": "ab122e112e2450f10cec59216185bd519ccd7529c79d4c1c00255d43b97a037d"
+      },
+      "can_speak": false,
+      "n_files": 18,
+      "total_bytes": 16806501745,
+      "files": [
+        {
+          "sha256_head_tail_1MiB": "967ed3a2cff4c9a432b39157bdb8d426caca44a16da2d1d6941902bd0a6e471c",
+          "hash_mode": "partial_head_tail_1MiB",
+          "size_bytes": 3911340848,
+          "file": "model-00001-of-00005.safetensors"
+        },
+        {
+          "sha256_head_tail_1MiB": "db381b5f5713228229a50449af0fde923045078d85672da7bc58d921a26555a3",
+          "hash_mode": "partial_head_tail_1MiB",
+          "size_bytes": 3980786080,
+          "file": "model-00002-of-00005.safetensors"
+        },
+        {
+          "sha256_head_tail_1MiB": "b934a2bad398a23949acb23fbc728cf7ee8034405f62e372f86e7505a74b89f2",
+          "hash_mode": "partial_head_tail_1MiB",
+          "size_bytes": 3980819456,
+          "file": "model-00003-of-00005.safetensors"
+        },
+        {
+          "sha256_head_tail_1MiB": "9d417dc102110d367e59105004f2ef7fc88b7ef9bade5c75be5c92403b80296d",
+          "hash_mode": "partial_head_tail_1MiB",
+          "size_bytes": 3643135696,
+          "file": "model-00004-of-00005.safetensors"
+        },
+        {
+          "sha256": "a447dab3e72f9debd37a0c4ae0b9179a1bad2b06357092a77c066a0405bbc7d2",
+          "hash_mode": "full",
+          "size_bytes": 1278214288,
+          "file": "model-00005-of-00005.safetensors"
+        },
+        {
+          "sha256": "ab122e112e2450f10cec59216185bd519ccd7529c79d4c1c00255d43b97a037d",
+          "hash_mode": "full",
+          "size_bytes": 853,
+          "file": "config.json"
+        }
+      ]
+    }
+  ],
+  "asr_models": [
+    {
+      "path": "/workspace/yunlong/LLM/pretrain_model/ST/whisper-large-v3",
+      "exists": true,
+      "config": {
+        "architectures": [
+          "WhisperForConditionalGeneration"
+        ],
+        "model_type": "whisper",
+        "has_talker_config": false,
+        "enable_audio_output": null,
+        "enable_talker": null,
+        "has_code2wav": false,
+        "transformers_version": "4.36.0.dev0",
+        "dtype": "float16",
+        "sha256": "ad0e8d1e46f4d01f7861a21509e5d0f977d6cc1f367a370603c92541d819807b"
+      },
+      "can_speak": false,
+      "n_files": 17,
+      "total_bytes": 3091543194,
+      "files": [
+        {
+          "sha256_head_tail_1MiB": "6c6f0964cd7316699551ef19f031ae04ca6e92154072d3224a1d2fadcd038569",
+          "hash_mode": "partial_head_tail_1MiB",
+          "size_bytes": 3087130976,
+          "file": "model.safetensors"
+        },
+        {
+          "sha256": "ad0e8d1e46f4d01f7861a21509e5d0f977d6cc1f367a370603c92541d819807b",
+          "hash_mode": "full",
+          "size_bytes": 1272,
+          "file": "config.json"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/yunlong/LLM/pretrain_model/ST/seamless-m4t-v2-large",
+      "exists": true,
+      "config": {
+        "architectures": [
+          "SeamlessM4Tv2Model"
+        ],
+        "model_type": "seamless_m4t_v2",
+        "has_talker_config": false,
+        "enable_audio_output": null,
+        "enable_talker": null,
+        "has_code2wav": false,
+        "transformers_version": "4.36.0.dev0",
+        "dtype": "float32",
+        "sha256": "4b2fa9d863cc3033adaf261e6c3e32ad90347ee2f199a349ba1c77d5e26a605f"
+      },
+      "can_speak": false,
+      "n_files": 17,
+      "total_bytes": 9258141350,
+      "files": [
+        {
+          "sha256_head_tail_1MiB": "e7f49bb8a006fc216736c2dfacf2ec921a1c7618b593f326dd4394e7faabb9c0",
+          "hash_mode": "partial_head_tail_1MiB",
+          "size_bytes": 4999163080,
+          "file": "model-00001-of-00002.safetensors"
+        },
+        {
+          "sha256_head_tail_1MiB": "f561607384c45ed035c40c206c4b87d77baec16ae0550ac9a652cc965122ed1c",
+          "hash_mode": "partial_head_tail_1MiB",
+          "size_bytes": 4238114628,
+          "file": "model-00002-of-00002.safetensors"
+        },
+        {
+          "sha256": "4b2fa9d863cc3033adaf261e6c3e32ad90347ee2f199a349ba1c77d5e26a605f",
+          "hash_mode": "full",
+          "size_bytes": 2716,
+          "file": "config.json"
+        }
+      ]
+    }
+  ],
+  "tts_models": [
+    {
+      "path": "/workspace/yunlong/LLM/pretrain_model/TTS/CosyVoice2-0.5B",
+      "exists": true,
+      "config": null,
+      "can_speak": null,
+      "n_files": 19,
+      "total_bytes": 4623672647,
+      "files": [
+        {
+          "sha256": "a6ac6a63997761ae2997373e2ee1c47040854b4b759ea41ec48e4e42df0f4d73",
+          "hash_mode": "full",
+          "size_bytes": 28303423,
+          "file": "campplus.onnx"
+        },
+        {
+          "sha256": "3ebde248652c6eed855e08bb6a263af3847039a1361f8019bdb27f5f680a1dc4",
+          "hash_mode": "full",
+          "size_bytes": 450496991,
+          "file": "flow.cache.pt"
+        },
+        {
+          "sha256": "cd54e4281701e6630730da64502d77b7e8b6e5c057cca65128bffb50f85cbf98",
+          "hash_mode": "full",
+          "size_bytes": 286317026,
+          "file": "flow.decoder.estimator.fp32.onnx"
+        },
+        {
+          "sha256": "ff4c2f867674411e0a08cee702996df13fa67c1cd864c06108da88d16d088541",
+          "hash_mode": "full",
+          "size_bytes": 450575567,
+          "file": "flow.pt"
+        },
+        {
+          "sha256": "3386cc880324d4e98e05987b99107f49e40ed925b8ecc87c1f4939432d429879",
+          "hash_mode": "full",
+          "size_bytes": 83390254,
+          "file": "hift.pt"
+        },
+        {
+          "sha256": "b144ef55b51ce8cfb79a73c90dbba0bdaba4e451c0ebcfab20f769264f84a608",
+          "hash_mode": "full",
+          "size_bytes": 2023316821,
+          "file": "llm.pt"
+        },
+        {
+          "sha256": "5b45a98572ed21e3a3ebf50201f3020567f7db40e9a57509b790b2982f5c07b7",
+          "hash_mode": "full",
+          "size_bytes": 496095794,
+          "file": "speech_tokenizer_v2.batch.onnx"
+        },
+        {
+          "sha256": "d43342aa12163a80bf07bffb94c9de2e120a8df2f9917cd2f642e7f4219c6f71",
+          "hash_mode": "full",
+          "size_bytes": 496082973,
+          "file": "speech_tokenizer_v2.onnx"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/yunlong/LLM/pretrain_model/TTS/Fun-CosyVoice3-0.5B-2512",
+      "exists": true,
+      "config": null,
+      "can_speak": null,
+      "n_files": 18,
+      "total_bytes": 10086778210,
+      "files": [
+        {
+          "sha256": "a6ac6a63997761ae2997373e2ee1c47040854b4b759ea41ec48e4e42df0f4d73",
+          "hash_mode": "full",
+          "size_bytes": 28303423,
+          "file": "campplus.onnx"
+        },
+        {
+          "sha256": "9b51b9533a55937762b262bf2cf9c6220ce40760f76d6532cb16a6a6d84059a8",
+          "hash_mode": "full",
+          "size_bytes": 1326216933,
+          "file": "flow.decoder.estimator.fp32.onnx"
+        },
+        {
+          "sha256": "a6fab32a7825e5b0bc855ddd948f8db9370b0a786fbc249caa4595e95b608e4b",
+          "hash_mode": "full",
+          "size_bytes": 1329116148,
+          "file": "flow.pt"
+        },
+        {
+          "sha256": "b279d7641eb97ae55b3b540cfba4f953c26492a2df758328a89a4d007ab87a65",
+          "hash_mode": "full",
+          "size_bytes": 83202622,
+          "file": "hift.pt"
+        },
+        {
+          "sha256": "69f43bd545131c30e98947fb360ea8b4dc9916d8e83dded7757c7ea4f5a24970",
+          "hash_mode": "full",
+          "size_bytes": 2024669519,
+          "file": "llm.pt"
+        },
+        {
+          "sha256": "74d34b01a80c7154670ae75ac372d1b1712c78bceae9f467eb9f1f6f61ec764f",
+          "hash_mode": "full",
+          "size_bytes": 2024682701,
+          "file": "llm.rl.pt"
+        },
+        {
+          "sha256": "b156b8a7bbff436585e153f4637b9a368009005ac66efa108a6c8bfb34e5ee43",
+          "hash_mode": "full",
+          "size_bytes": 969451579,
+          "file": "speech_tokenizer_v3.batch.onnx"
+        },
+        {
+          "sha256": "23236a74175dbdda47afc66dbadd5bcb41303c467a57c261cb8539ad9db9208d",
+          "hash_mode": "full",
+          "size_bytes": 969451503,
+          "file": "speech_tokenizer_v3.onnx"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/yunlong/LLM/pretrain_model/TTS/chatterbox",
+      "exists": true,
+      "config": null,
+      "can_speak": null,
+      "n_files": 16,
+      "total_bytes": 11739140281,
+      "files": [
+        {
+          "sha256": "6552d70568833628ba019c6b03459e77fe71ca197d5c560cef9411bee9d87f4e",
+          "hash_mode": "full",
+          "size_bytes": 107374,
+          "file": "conds.pt"
+        },
+        {
+          "sha256": "9b9ff07e60b20c136e2b1b3d7563a24604e8d2c4c267888d1ee929dd0151d2a3",
+          "hash_mode": "full",
+          "size_bytes": 1057165844,
+          "file": "s3gen.pt"
+        },
+        {
+          "sha256": "f7abce4b196dae2d08d9296cbebc6521b046079577643b42a19a03499d08721e",
+          "hash_mode": "full",
+          "size_bytes": 1056903694,
+          "file": "s3gen_v3.pt"
+        },
+        {
+          "sha256": "4a46190f3dccc2230fbb3488a930bccc925862ee68f2662433dfcfe93ce6c2cb",
+          "hash_mode": "full",
+          "size_bytes": 1056381804,
+          "file": "s3gen_v3.safetensors"
+        },
+        {
+          "sha256": "5b2194350053f9fc01544e614d923f1e5c8cd785ba596acc142d3d1d8614908c",
+          "hash_mode": "full",
+          "size_bytes": 2143154168,
+          "file": "t3_23lang.safetensors"
+        },
+        {
+          "sha256": "914cb1696f47527fe8852ca8f1fe1fa63cb34f76f9c715e84e067b744dd0da81",
+          "hash_mode": "full",
+          "size_bytes": 2129653744,
+          "file": "t3_cfg.safetensors"
+        },
+        {
+          "sha256": "b1237586127ce98e7800a68e49938eb5092846862aabcb6e17b2fda7889a6c75",
+          "hash_mode": "full",
+          "size_bytes": 2143989752,
+          "file": "t3_mtl23ls_v2.safetensors"
+        },
+        {
+          "sha256": "5abca8321ede76f8e61f1cc0d19aea6c946b28871017ce8726f8a69203f05953",
+          "hash_mode": "full",
+          "size_bytes": 2143989928,
+          "file": "t3_mtl23ls_v3.safetensors"
+        },
+        {
+          "sha256": "4b16d836bc598509860f6fa068165a8bb5e9ac84f05582dfcf278a5a372879f1",
+          "hash_mode": "full",
+          "size_bytes": 5698626,
+          "file": "ve.pt"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/yunlong/LLM/pretrain_model/TTS/Qwen3-TTS-12Hz-1.7B-Base",
+      "exists": true,
+      "config": {
+        "architectures": [
+          "Qwen3TTSForConditionalGeneration"
+        ],
+        "model_type": "qwen3_tts",
+        "has_talker_config": true,
+        "enable_audio_output": null,
+        "enable_talker": null,
+        "has_code2wav": false,
+        "transformers_version": "4.57.3",
+        "dtype": null,
+        "sha256": "b4f01752d15a488abde3e1ab44723ae4f4b9e68a4037257b098b3737893cc1f9"
+      },
+      "can_speak": true,
+      "n_files": 13,
+      "total_bytes": 3861933538,
+      "files": [
+        {
+          "sha256_head_tail_1MiB": "200c04e4c7aefcb3530aed19cc06fc6616cc70a3b3065c948635dc3147d2baa9",
+          "hash_mode": "partial_head_tail_1MiB",
+          "size_bytes": 3857413744,
+          "file": "model.safetensors"
+        },
+        {
+          "sha256": "b4f01752d15a488abde3e1ab44723ae4f4b9e68a4037257b098b3737893cc1f9",
+          "hash_mode": "full",
+          "size_bytes": 4494,
+          "file": "config.json"
+        }
+      ]
+    }
+  ],
+  "extractor_models": [
+    {
+      "path": "/workspace/yunlong/LLM/pretrain_model/Qwen/Qwen2.5-7B-Instruct",
+      "exists": true,
+      "config": {
+        "architectures": [
+          "Qwen2ForCausalLM"
+        ],
+        "model_type": "qwen2",
+        "has_talker_config": false,
+        "enable_audio_output": null,
+        "enable_talker": null,
+        "has_code2wav": false,
+        "transformers_version": "4.43.1",
+        "dtype": "bfloat16",
+        "sha256": "7463bb0ea78315365e6c6b74de4e73bbcc8359dfb0c5a737584e077d42c0b03c"
+      },
+      "can_speak": false,
+      "n_files": 16,
+      "total_bytes": 15242812373,
+      "files": [
+        {
+          "sha256_head_tail_1MiB": "fb9961ccce7b0f9c351287a8c4e0c35c01d05fd7b6d2df587d773c97c72b7630",
+          "hash_mode": "partial_head_tail_1MiB",
+          "size_bytes": 3945441440,
+          "file": "model-00001-of-00004.safetensors"
+        },
+        {
+          "sha256_head_tail_1MiB": "49684e465c61b8faecbc90f5bade7fd4c221afabc072d08baabd48f10bef368c",
+          "hash_mode": "partial_head_tail_1MiB",
+          "size_bytes": 3864726352,
+          "file": "model-00002-of-00004.safetensors"
+        },
+        {
+          "sha256_head_tail_1MiB": "fdc57a6bc052e46fe4f2dd8263b5cdc175fecd03a46c0404201e200ce24f04fd",
+          "hash_mode": "partial_head_tail_1MiB",
+          "size_bytes": 3864726424,
+          "file": "model-00003-of-00004.safetensors"
+        },
+        {
+          "sha256_head_tail_1MiB": "94d716c2c937726e5cfb3c5470fd36409ff2e86427f93a33422352e24df28bf2",
+          "hash_mode": "partial_head_tail_1MiB",
+          "size_bytes": 3556377672,
+          "file": "model-00004-of-00004.safetensors"
+        },
+        {
+          "sha256": "7463bb0ea78315365e6c6b74de4e73bbcc8359dfb0c5a737584e077d42c0b03c",
+          "hash_mode": "full",
+          "size_bytes": 663,
+          "file": "config.json"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/yunlong/LLM/pretrain_model/Qwen/Qwen3-8B",
+      "exists": true,
+      "config": {
+        "architectures": [
+          "Qwen3ForCausalLM"
+        ],
+        "model_type": "qwen3",
+        "has_talker_config": false,
+        "enable_audio_output": null,
+        "enable_talker": null,
+        "has_code2wav": false,
+        "transformers_version": "4.51.0",
+        "dtype": "bfloat16",
+        "sha256": "f7c4eadfbbf522470667b797a3c89be2524832d2d599797248dc304fff447c30"
+      },
+      "can_speak": false,
+      "n_files": 16,
+      "total_bytes": 16397461266,
+      "files": [
+        {
+          "sha256_head_tail_1MiB": "dd8b9cfbf9239f343e019224712057f4a5a858ef901b33d89ba7d1f50c188831",
+          "hash_mode": "partial_head_tail_1MiB",
+          "size_bytes": 3996250744,
+          "file": "model-00001-of-00005.safetensors"
+        },
+        {
+          "sha256_head_tail_1MiB": "dc5ea3301671a7a9a765211e148d6d5e319cb0dd21d88363ad915b7ca4d6f31c",
+          "hash_mode": "partial_head_tail_1MiB",
+          "size_bytes": 3993160032,
+          "file": "model-00002-of-00005.safetensors"
+        },
+        {
+          "sha256_head_tail_1MiB": "e2e9c9891b2b00b9120a7ae0c507d4d497d803a55a72c89993a94de98f4166c2",
+          "hash_mode": "partial_head_tail_1MiB",
+          "size_bytes": 3959604768,
+          "file": "model-00003-of-00005.safetensors"
+        },
+        {
+          "sha256_head_tail_1MiB": "aea984ad8f66aec29d123d247691b34dc8e19b00fc6cf12c532fcc0bf134c33d",
+          "hash_mode": "partial_head_tail_1MiB",
+          "size_bytes": 3187841392,
+          "file": "model-00004-of-00005.safetensors"
+        },
+        {
+          "sha256": "20c2d6366ab85c90786ccdd829cd2b9e7d30ef3b2ebbb998280e7e4014b542ff",
+          "hash_mode": "full",
+          "size_bytes": 1244659840,
+          "file": "model-00005-of-00005.safetensors"
+        },
+        {
+          "sha256": "f7c4eadfbbf522470667b797a3c89be2524832d2d599797248dc304fff447c30",
+          "hash_mode": "full",
+          "size_bytes": 728,
+          "file": "config.json"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/yunlong/LLM/pretrain_model/Qwen/Qwen2.5-3B",
+      "exists": true,
+      "config": {
+        "architectures": [
+          "Qwen2ForCausalLM"
+        ],
+        "model_type": "qwen2",
+        "has_talker_config": false,
+        "enable_audio_output": null,
+        "enable_talker": null,
+        "has_code2wav": false,
+        "transformers_version": "4.40.1",
+        "dtype": "bfloat16",
+        "sha256": "27467e2fc311a7656c09a43ae9c3d408211e1f212bbddbc93c8596a06423826f"
+      },
+      "can_speak": false,
+      "n_files": 13,
+      "total_bytes": 6183463686,
+      "files": [
+        {
+          "sha256_head_tail_1MiB": "df5895435c3b18d5a9641456b627cd2e7f1e0d9eefb888a8af0885cc474103e2",
+          "hash_mode": "partial_head_tail_1MiB",
+          "size_bytes": 3968658944,
+          "file": "model-00001-of-00002.safetensors"
+        },
+        {
+          "sha256_head_tail_1MiB": "e7ecd9f45418eb0b2c24470d4bdf28894539d79d09fe25c4a5f6193a102e32b2",
+          "hash_mode": "partial_head_tail_1MiB",
+          "size_bytes": 2203268048,
+          "file": "model-00002-of-00002.safetensors"
+        },
+        {
+          "sha256": "27467e2fc311a7656c09a43ae9c3d408211e1f212bbddbc93c8596a06423826f",
+          "hash_mode": "full",
+          "size_bytes": 683,
+          "file": "config.json"
+        }
+      ]
+    }
+  ],
+  "conda_envs": [
+    {
+      "path": "/workspace/yunlong/anaconda3/envs/audio-llm",
+      "exists": true,
+      "pip_freeze_sha256": "d4c430b51bc7f22b73dff7bc2fd4a603a47d3d5311c9fdbe7c746146351656f8",
+      "pip_freeze_n_files": 31,
+      "python": "/workspace/yunlong/anaconda3/envs/audio-llm/bin/python"
+    }
+  ],
+  "decode_config": {
+    "_comment": "D0-2 冒烟实测后冻结的解码配置。所有值均为实测/显式设定，无预填。改动需重跑冒烟并记录到 docs/d0_worklog.md。",
+    "frozen_at": "2026-09-16",
+    "frozen_from": "exp/d0_smoke (Qwen3-Omni-30B-A3B-Instruct, A23 GPU0/1)",
+    "model": {
+      "path": "/workspace/yunlong/LLM/pretrain_model/Qwen/Qwen3-Omni-30B-A3B-Instruct",
+      "arch": "Qwen3OmniMoeForConditionalGeneration",
+      "dtype": "bfloat16",
+      "device_map": "auto"
+    },
+    "decode": {
+      "temperature": 0.0,
+      "do_sample": false,
+      "max_new_tokens": 512,
+      "talker_max_new_tokens": 2048,
+      "top_p": null,
+      "seed": null,
+      "speaker": null,
+      "return_audio_text_conditions": false,
+      "instruction": "Answer the question in one short sentence."
+    },
+    "audio": {
+      "sample_rate": 24000,
+      "container": "wav",
+      "subtype": "PCM_16",
+      "channels": 1,
+      "max_output_audio_sec": 30
+    },
+    "smoke_observations": {
+      "_comment": "冒烟观测值，仅供规划参考；不是主实验指标。",
+      "model_load_sec": 336.0,
+      "text_condition_latency_sec_range": [
+        3.0,
+        9.0
+      ],
+      "speech_condition_latency_sec_range": [
+        1.4,
+        9.2
+      ],
+      "audio_duration_sec_range": [
+        1.66,
+        3.9
+      ],
+      "asr1_whisper_sec_range": [
+        0.3,
+        1.5
+      ],
+      "asr2_seamless_sec_range": [
+        0.5,
+        2.0
+      ]
+    },
+    "_source": "configs/decode.json"
+  },
+  "prompts": {
+    "fact_extraction_llm": {
+      "sha256": null,
+      "model": null
+    },
+    "ef_forced_readback": {
+      "sha256": null
+    }
+  },
+  "runtime": {
+    "cuda_visible_devices": "2,3",
+    "output_audio": "wav mono pcm_s16le"
+  },
+  "hosts": {
+    "A22": "本机（GPU2/3 可用，GPU0/1 被他人占用）",
+    "A23": "远程 ssh A23-direct（GPU0/1 空闲）；/workspace 共享"
+  }
+}

@@ -1,0 +1,23 @@
+# MiniCPM-o-4.5 V100 overlay, captured 2026-09-19.
+# Base interpreter: /workspace/yunlong/anaconda3/envs/cosyvoice (Python 3.10.18)
+# Runtime: torch==2.6.0+cu118, torchaudio==2.6.0+cu118 (inherited from base)
+# This CUDA 11.8 runtime is intentional: the CUDA 12.1 Conda libcurand build
+# requires GLIBC_2.27, while V96/V98 provide glibc 2.17.
+accelerate==1.15.0
+decord==0.6.0
+einops==0.8.1
+huggingface_hub==0.36.2
+jiwer==4.0.0
+librosa==0.9.0
+minicpmo-utils==1.0.6
+num2words==0.5.14
+numpy==1.26.4
+onnx==1.17.0
+onnxruntime==1.16.3
+Pillow==10.4.0
+pytest==9.1.1
+resampy==0.4.3
+soundfile==0.12.1
+sentencepiece==0.2.0
+tokenizers==0.21.4
+transformers==4.51.0

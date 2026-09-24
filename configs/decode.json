@@ -1,0 +1,38 @@
+{
+  "_comment": "D0-2 冒烟实测后冻结的解码配置。所有值均为实测/显式设定，无预填。改动需重跑冒烟并记录到 docs/d0_worklog.md。",
+  "frozen_at": "2026-09-16",
+  "frozen_from": "exp/d0_smoke (Qwen3-Omni-30B-A3B-Instruct, A23 GPU0/1)",
+  "model": {
+    "path": "/workspace/yunlong/LLM/pretrain_model/Qwen/Qwen3-Omni-30B-A3B-Instruct",
+    "arch": "Qwen3OmniMoeForConditionalGeneration",
+    "dtype": "bfloat16",
+    "device_map": "auto"
+  },
+  "decode": {
+    "temperature": 0.0,
+    "do_sample": false,
+    "max_new_tokens": 512,
+    "talker_max_new_tokens": 2048,
+    "top_p": null,
+    "seed": null,
+    "speaker": null,
+    "return_audio_text_conditions": false,
+    "instruction": "Answer the question in one short sentence."
+  },
+  "audio": {
+    "sample_rate": 24000,
+    "container": "wav",
+    "subtype": "PCM_16",
+    "channels": 1,
+    "max_output_audio_sec": 30
+  },
+  "smoke_observations": {
+    "_comment": "冒烟观测值，仅供规划参考；不是主实验指标。",
+    "model_load_sec": 336.0,
+    "text_condition_latency_sec_range": [3.0, 9.0],
+    "speech_condition_latency_sec_range": [1.4, 9.2],
+    "audio_duration_sec_range": [1.66, 3.9],
+    "asr1_whisper_sec_range": [0.3, 1.5],
+    "asr2_seamless_sec_range": [0.5, 2.0]
+  }
+}

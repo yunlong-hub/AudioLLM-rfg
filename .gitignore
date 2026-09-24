@@ -1,0 +1,58 @@
+# Environments and caches
+.venv/
+.venvs/
+venv/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Local secrets
+.env
+.env.*
+*.pem
+*.key
+
+# Models and checkpoints
+pretrain_model
+checkpoints/
+*.safetensors
+*.ckpt
+*.pt
+*.pth
+*.bin
+*.onnx
+
+# Datasets and generated artifacts
+dataset
+data/
+exp/
+output/
+logs/
+reports/
+runs/
+wandb/
+tensorboard/
+docs/
+
+# Generated media/results
+*.wav
+*.flac
+*.mp3
+*.mp4
+*.jsonl.tmp
+
+# Internal workspace
+.agents/
+.codex/
+ccfa.yaml
+papers/
+third_party/
+
+# Editors and system files
+.DS_Store
+*.swp
+.vscode/
+.idea/

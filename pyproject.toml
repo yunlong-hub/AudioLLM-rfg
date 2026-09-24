@@ -1,0 +1,41 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rfg"
+version = "0.0.1"
+description = "Rendering Faithfulness Gap: fact-level output-side fidelity measurement for speech-to-speech LLMs"
+requires-python = ">=3.10"
+dependencies = [
+    "torch>=2.11",
+    "transformers>=5.15,<6",
+    "qwen-omni-utils>=0.0.9",
+    "accelerate",
+    "librosa",
+    "soundfile",
+    "jiwer",
+    "num2words>=0.5.14",
+    "pint",
+    "sentencepiece",
+    "protobuf",
+    "av",
+    "numpy",
+    "scipy",
+    "pandas",
+    "statsmodels",
+    "tqdm",
+    "pyyaml",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]

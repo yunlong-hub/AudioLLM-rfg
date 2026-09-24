@@ -35,7 +35,11 @@ reports/
 runs/
 wandb/
 tensorboard/
-docs/
+# Internal notes stay local; publish only README figures.
+docs/*
+!docs/assets/
+docs/assets/*
+!docs/assets/*.svg
 
 # Generated media/results
 *.wav

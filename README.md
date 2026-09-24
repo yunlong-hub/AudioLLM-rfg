@@ -1,5 +1,7 @@
 # AudioLLM-RFG
 
+<p align="center"><strong>English</strong> · <a href="README_zh.md">简体中文</a></p>
+
 Official implementation of **Reusing the Internal Spoken Plan: Localizing Loss and Recovering Facts in Speech Language Models**.
 
 [Paper (coming soon)](#citation) · [Code](https://github.com/yunlong-hub/AudioLLM-rfg)
@@ -22,6 +24,10 @@ The framework separates two failure sources:
 
 - **Plan loss:** facts change when the model switches from a text-output path to a speech-output path.
 - **Render loss:** facts present in the internal spoken plan are no longer recoverable from the generated waveform.
+
+![AudioLLM-RFG pathwise audit and plan-guided recovery framework](docs/assets/method_overview.svg)
+
+The figure above is the method overview used in the paper: the internal spoken plan is the shared reference for both factual localization and candidate recovery.
 
 It also reuses the internal plan as a reference for selecting among multiple speech candidates. Selection and evaluation use disjoint ASR views, so recovery is measured without an external reference answer and without evaluating on the recognizers used for selection.
 
@@ -188,6 +194,18 @@ Across the five evaluated checkpoints:
 At eight candidates, plan-guided fact selection reduces reference-plan loss by `2.5–11.3` percentage points across all five checkpoints. It outperforms random selection and plan-free ASR consistency selection in reference-plan fidelity. Recovery remains on identical-text candidate pools, showing that the gain is not explained only by changing the model's answer.
 
 The identical-text confidence intervals exclude zero in 14 of 15 model/recognizer comparisons; MiniCPM-o evaluated through Seamless is the exception.
+
+### Plan guidance is robust across selection objectives
+
+![Comparison of six candidate-selection strategies](docs/assets/selection_methods.svg)
+
+On the full candidate pool, Plan-Fact achieves lower reference-plan loss than the original sample, random selection, and plan-free ASR consistency for every checkpoint. Plan-Text is also effective, while the oracle remains an explicitly unattainable upper bound rather than a deployable baseline.
+
+### Rendering loss has measurable downstream impact
+
+![VoiceBench accuracy drop from internal plan to ASR readback](docs/assets/voicebench_drops.svg)
+
+The accuracy-drop view isolates the downstream cost of converting an internal plan into speech. The effect varies by model and recognizer—from no measured drop in two Qwen2.5-7B views to a 23.1-point drop for Qwen2.5-3B through Seamless—supporting multi-recognizer reporting instead of relying on a single ASR view.
 
 ### Recovery generally improves with candidate budget
 
